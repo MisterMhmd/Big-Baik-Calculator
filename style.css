@@ -147,7 +147,7 @@ background: linear-gradient(90deg, #000000 19%, #eaff02 54%);
 
 .answer {
     Margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     width: 100%;
     font-size: 30px;
     display: flex;
@@ -160,14 +160,15 @@ background: linear-gradient(90deg, #000000 19%, #eaff02 54%);
 
 
 .row {
-    display: flex;
-    justify-content: space-evenly;
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
     margin-bottom: 70px;   
 
 }
 
 .big-baik-container{
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 70px;
     width: 90%;
     border-style: solid;
