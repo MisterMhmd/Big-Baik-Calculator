@@ -115,7 +115,7 @@ background: linear-gradient(90deg, #000000 19%, #eaff02 54%);
 }
 
 .amount-given::placeholder {
-    color: #dee0de;
+    color: #3e3e3e;
     font-weight: bold;
     font-size: 20px;
 }
