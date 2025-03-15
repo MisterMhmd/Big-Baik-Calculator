@@ -15,8 +15,9 @@
     <body>
         <div class="header">
             <h1 class="albaik-header"> BIG BAIK CURRENCY CALCULATOR </h1>
+            <h2 class="name"> Mohammed Taha Al Attas </h2>
         </div>
-        <form class="container">
+        <form class="container" id="form">
             <fieldset class="currency-box">
                 <legend class="currency"> Currency: </legend>
                 <div class="currency-choice">
@@ -34,13 +35,13 @@
             </fieldset>
             <fieldset class="amount">
                 <legend class="amount-text"> Amount: </legend>
-                <input type="text" class="amount-given" placeholder="300"/>
+                <input type="text" class="amount-given" placeholder="300" id="value"/>
             </fieldset>
             <button class="calculate" type="submit">
                 Calculate
             </button>
-            <!-- <div class="big-baik-container">
-                <div class="answer"> 
+            <div class="big-baik-container">
+                <!-- <div class="answer"> 
                     <p class="Buy">
                         You Can Buy:
                     </p>
@@ -51,5 +52,6 @@
                 </div>
             </div> -->
         </form>
+        <script src="albaik.js"></script>
     </body>
 </html>

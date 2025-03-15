@@ -15,6 +15,7 @@ body {
 .header {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .albaik-header {
@@ -23,13 +24,28 @@ font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 40px;
-line-height: 73px;
+line-height: 50px;
 font-weight: bolder;
 background: linear-gradient(90deg, #eaff02 19%, #e16b0b 54%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
-text-fill-color: transparent;
+margin-bottom: 10px;
+}
+
+.name {
+font-family: 'Inter';
+text-align: center;
+font-style: normal;
+margin-top:0;
+font-weight: 400;
+margin-bottom: 30px;
+font-size: 20px;
+line-height: 50px;
+font-weight: bolder;
+background: linear-gradient(90deg, #000000 19%, #eaff02 54%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 
 }
 
