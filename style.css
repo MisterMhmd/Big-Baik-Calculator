@@ -10,6 +10,7 @@ body {
     background-color:#f30000;
     background-image: linear-gradient(to bottom, rgba(232, 55, 37,0) 0%,rgba(232, 55, 37,0) 75%,rgba(232, 55, 37,1) 100%), url(images/Al_Baik_Logo.png);
     background-position:top center;
+    background-repeat: no-repeat;
     background-size:50% auto;
 }
 
@@ -17,6 +18,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .albaik-header {
@@ -107,7 +109,7 @@ background: linear-gradient(90deg, #000000 19%, #eaff02 54%);
     display: flex;
     justify-content: left;
     align-items: start;
-    padding-left: 10px;
+    padding-left: 0px;
     padding-top: 8px;
     padding-bottom: 8px;
     border: 5px solid #F8EB2D;
@@ -117,6 +119,7 @@ background: linear-gradient(90deg, #000000 19%, #eaff02 54%);
 }
 
 .amount-given::placeholder {
+    text-align: center;
     color: #3e3e3e;
     font-weight: bold;
     font-size: 20px;
@@ -186,5 +189,5 @@ background: linear-gradient(90deg, #000000 19%, #eaff02 54%);
 
 .big-baik {
     display: block;
-    width: 50%;
+    width: 90%;
 }
