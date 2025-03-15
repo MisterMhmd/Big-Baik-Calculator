@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title> Big Baik Calculator! </title>
+        <link rel="icon" href="images/Al_Baik_Logo.png">
+        <link rel="stylesheet" href="albaik.css">
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href='https://fonts.googleapis.com/css?family=Nokora' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="header">
+            <h1 class="albaik-header"> BIG BAIK CURRENCY CALCULATOR </h1>
+        </div>
+        <form class="container">
+            <fieldset class="currency-box">
+                <legend class="currency"> Currency: </legend>
+                <div class="currency-choice">
+                    <input type="radio" class="riyal" id="riyal" value="saudi-riyal" name="currency"/>
+                    <label for="riyal"> <img src ="images/riyal.svg" class="riyal-image"> </label>
+                </div>
+                <div class="currency-choice">
+                    <input type="radio" class="yemeni" id="yemeni" value="yemeni-riyal" name="currency"/>
+                    <label for="yemeni"> Yemeni </label>
+                </div>
+                <div class="currency-choice">
+                    <input type="radio" class="USD" id="USD" value="us-dolllar" name="currency"/>
+                    <label for="USD"> $ </label>
+                </div>
+            </fieldset>
+            <fieldset class="amount">
+                <legend class="amount-text"> Amount: </legend>
+                <input type="text" class="amount-given" placeholder="300"/>
+            </fieldset>
+            <button class="calculate" type="submit">
+                Calculate
+            </button>
+            <!-- <div class="big-baik-container">
+                <div class="answer"> 
+                    <p class="Buy">
+                        You Can Buy:
+                    </p>
+                </div>
+                <div class="row">
+                    <p class="calculated-amount"> 2.75 </p>
+                    <img src="images/big_baik_wth_chese-removebg-preview-1.png" class="big-baik"/>
+                </div>
+            </div> -->
+        </form>
+    </body>
+</html>

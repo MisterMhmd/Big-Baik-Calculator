@@ -1,0 +1,171 @@
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment:fixed;
+    background-color:#f30000;
+    background-image: linear-gradient(to bottom, rgba(232, 55, 37,0) 0%,rgba(232, 55, 37,0) 75%,rgba(232, 55, 37,1) 100%), url(images/Al_Baik_Logo.png);
+    background-position:top center;
+    background-size:50% auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.albaik-header {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 73px;
+font-weight: bolder;
+background: linear-gradient(90deg, #eaff02 19%, #e16b0b 54%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    max-width: 1000px;
+    min-width: 700px;
+    position: static;
+    border-style: solid;
+    background: linear-gradient(180deg, #842222 0%, #FC0707 20.5%, #C31414 67.5%);
+    border: 3px solid #000000;
+    border-radius: 20px;
+    margin-bottom: 100px;  
+}
+
+.currency-box, .amount {
+    display: flex;
+    width: 90%;
+    height: 60%;
+    align-items: center ;
+    justify-content: space-evenly;
+    margin-bottom: 20px;    
+}
+
+.currency-choice {
+    display: flex;
+    flex-direction: row;
+    font-size:30px;
+    color: #dee0de;
+}
+
+.riyal-image {
+    height: 30px;
+    filter: invert(100%) ;
+}
+
+.amount-text, .currency {
+    font-size:20px;
+    color: #dee0de;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.amount-given {
+    color: #dee0de;
+    font-weight: bold;
+    font-size: 20px;
+    text-indent: 10px;
+    width: 50%;
+    height: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 5px solid #F8EB2D;
+    border-radius: 15px;
+    background: none;
+    outline: none;
+}
+
+.amount-given::placeholder {
+    color: #dee0de;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.calculate {
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    width: 200px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 42px;
+    border-image: linear-gradient(to right, #FFFFFF 5%, #F0D50D 100%)1;
+    color: #FFFFFF;
+    border-width: 10px;
+    background: none;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.answer {
+    Margin-top: 0px;
+    margin-bottom: 30px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    font-family: Inter;
+    font-weight: bold;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 70px;   
+
+}
+
+.big-baik-container{
+    margin-top: 30px;
+    margin-bottom: 70px;
+    width: 90%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #F0D50D;
+}
+
+.calculated-amount {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 70px;
+    margin-right: 30px;
+}
+
+.big-baik {
+    display: block;
+    width: 50%;
+}
