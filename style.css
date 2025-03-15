@@ -29,7 +29,7 @@ font-weight: 400;
 font-size: 40px;
 line-height: 50px;
 font-weight: bolder;
-background: linear-gradient(90deg, #eaff02 19%, #e16b0b 54%);
+background: linear-gradient(90deg, #000000 19%, #eaff02 54%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
